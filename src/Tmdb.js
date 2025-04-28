@@ -1,7 +1,4 @@
-const API_KEY = "ec4474524aff712b113d2566598ff981";
-const API_BASE = "https://api.themoviedb.org/3";
-const API_TOKEN =
-  "eyJhbGciOiJIUzI1NiJ9.eyJhdWQiOiJlYzQ0NzQ1MjRhZmY3MTJiMTEzZDI1NjY1OThmZjk4MSIsIm5iZiI6MTczOTkyMTQ1Mi4zODEsInN1YiI6IjY3YjUxODJjYjY4N2U3MzhmMTU2NjNkZSIsInNjb3BlcyI6WyJhcGlfcmVhZCJdLCJ2ZXJzaW9uIjoxfQ.3Lq9g9Y4Z-zi5FgttUZHzOqZtOoB8XtE8L9qXjLH34E";
+const { API_KEY, API_BASE } = require("./Api,js");
 
 const basicFetch = async (endpoint) => {
   const req = await fetch(`${API_BASE}${endpoint}`).then((res) => res.json());

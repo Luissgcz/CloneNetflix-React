@@ -1,0 +1,6 @@
+module.exports = {
+  API_KEY: "ec4474524aff712b113d2566598ff981",
+  API_BASE: "https://api.themoviedb.org/3",
+  API_TOKEN:
+    "eyJhbGciOiJIUzI1NiJ9.eyJhdWQiOiJlYzQ0NzQ1MjRhZmY3MTJiMTEzZDI1NjY1OThmZjk4MSIsIm5iZiI6MTczOTkyMTQ1Mi4zODEsInN1YiI6IjY3YjUxODJjYjY4N2U3MzhmMTU2NjNkZSIsInNjb3BlcyI6WyJhcGlfcmVhZCJdLCJ2ZXJzaW9uIjoxfQ.3Lq9g9Y4Z-zi5FgttUZHzOqZtOoB8XtE8L9qXjLH34E",
+};

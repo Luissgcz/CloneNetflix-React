@@ -32,4 +32,7 @@ coverage/
 .expo/
 
 # Miscellaneous
-*.swp
+*.swp/
+
+#API
+./src/Api.js
