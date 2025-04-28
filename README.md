@@ -6,15 +6,6 @@ Este projeto é um clone da interface da Netflix desenvolvido em **ReactJS**.
 
 - ReactJS
 - JavaScript (ES6+)
-
-# Clone da Netflix - React
-
-Este projeto é um clone da interface da Netflix desenvolvido em **ReactJS**.
-
-## 🚀 Tecnologias Utilizadas
-
-- ReactJS
-- JavaScript (ES6+)
 - HTML5 e CSS3
 - APIs para listagem de filmes/séries (TMDB)
 
