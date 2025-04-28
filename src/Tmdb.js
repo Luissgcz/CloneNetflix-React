@@ -1,4 +1,4 @@
-const { API_KEY, API_BASE } = require("./Api,js");
+const { API_KEY, API_BASE } = require("./Api.js");
 
 const basicFetch = async (endpoint) => {
   const req = await fetch(`${API_BASE}${endpoint}`).then((res) => res.json());

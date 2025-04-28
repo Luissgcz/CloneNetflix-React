@@ -35,4 +35,4 @@ coverage/
 *.swp/
 
 #API
-./src/Api.js
+/src/Api.js
