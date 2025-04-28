@@ -24,7 +24,7 @@ Para conseguir reproduzir o projeto localmente, será necessário obter uma chav
 1. Crie uma conta no TMDB.
 2. Gere uma chave de API.
 3. Crie um Arquivo Api.js dentro do repositório ./src
-4. Coloque suas credenciais nesse formato "module.exports = {API_KEY : "SUA API KEY", API_BASE: "https://api.themoviedb.org/3"}
+4. O arquivo Api.js deve estar nesse formato: module.exports = {API_KEY : "SUA API KEY", API_BASE: "https://api.themoviedb.org/3"}
 
 Agora você pode rodar o projeto localmente!
 
