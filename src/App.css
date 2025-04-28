@@ -1,0 +1,54 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap");
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #111;
+  color: white;
+  font-family: "Roboto", sans-serif;
+}
+
+.lists {
+  margin-top: -185px;
+}
+
+footer {
+  margin: 15px 0;
+  text-align: center;
+}
+
+.loading-overlay {
+  position: fixed; /* Fixa na tela inteira */
+  top: 0;
+  left: 0;
+  width: 100vw; /* Garante que ocupe toda a largura */
+  height: 100vh; /* Garante que ocupe toda a altura */
+  background-color: rgba(0, 0, 0, 0.7); /* Fundo escuro para destaque */
+
+  display: flex;
+  justify-content: center; /* Centraliza horizontalmente */
+  align-items: center; /* Centraliza verticalmente */
+
+  z-index: 9998; /* Um nível abaixo do ícone */
+}
+
+.loading {
+  font-size: 5rem; /* Tamanho grande */
+  color: white; /* Cor azul */
+
+  animation: spin 1s linear infinite; /* Animação giratória contínua */
+  z-index: 9999; /* Fica acima do overlay */
+}
+
+@keyframes spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
