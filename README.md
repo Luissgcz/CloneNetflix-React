@@ -28,14 +28,3 @@ Para conseguir reproduzir o projeto localmente, será necessário obter uma chav
 
 Agora você pode rodar o projeto localmente!
 
-- HTML5 e CSS3
-- APIs para listagem de filmes/séries
-
-## 📦 Scripts
-
-Dentro do diretório do projeto, você pode rodar:
-
-### `npm start`
-
-Executa o app em modo de desenvolvimento.\
-Abra [http://localhost:3000](http://localhost:3000) para visualizar no navegador.
